@@ -5,43 +5,90 @@
 
 }
 body {
-    background-color: rgb(33, 67, 110);
+    background-color: rgb(24, 44, 70);
     font-family: 'Roboto' sans-serif;
-    width: 1200px;
+    width: 1100px;
     justify-self: center;
-    border: 1px solid white;
 }
 
 ul {
     list-style: none;
 }
 
-.navbar a {
+.navbar a,
+.sign-up a,
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    color: aqua;
+    color: rgba(255, 255, 255, 0.452);
 } 
 
 .navbar .container {
     color: white;
     display: flex;
-    border: 1px solid white;
-    padding: 15px 0px;
+    padding: 25px 0px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(5, 5, 49);
+    border-bottom: 4px solid;
 }
 
 .navbar .logo {
-    font-size: x-large;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .navbar ul {
     display: flex;
-    gap: 25px;
+    gap: 35px;
+    font-size: 20px;
 }
+
+.navbar ul a {
+    background-color: rgb(24, 44, 70);
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+a.signup-button {
+    background-color: rgb(42, 117, 214);
+    padding: 10px 40px;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+}
+
+img.header {
+    width: 600px;
+    border-radius: 35px;
+    border: 1px solid whitesmoke;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 60px;
+
+}
+.header .container h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header .container p {
+    color: rgba(255, 255, 255, 0.925);
+    font-size: large;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
