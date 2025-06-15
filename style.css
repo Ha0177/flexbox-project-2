@@ -194,5 +194,50 @@ img.header {
     color: #1f2937;
 }
 
+/* QUOTE-SECTION-END */
+
+/* CTA-SECTION-START */
+
+.cta-section {
+    background-color: rgb(42, 117, 214);
+    width: 100vw;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cta-section .container {
+    background-color: white;
+    border-radius: 20px;
+    width: 60vw;
+    padding: 60px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 20px 20px rgb(24, 44, 70);
+}
+
+.cta-container-text {
+    width: fit-content;
+}
+
+.cta-container-text h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cta-container-text p {
+    font-weight: 400;
+    font-size: larger;
+
+}
+
+.cta-section .signup-button {
+    background-color: black; 
+}
+
 
 
