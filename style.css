@@ -45,8 +45,8 @@ a {
     font-size: 35px;
     font-weight: 900;
     border: 1px solid;
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 80px;
+    padding: 15px;
     font-family: serif;
 }
 
@@ -70,12 +70,13 @@ a {
 
     a.signup-button {
     background-color: rgb(42, 117, 214);
-    padding: 15px 45px;
+    padding: 10px 40px;
     border-radius: 7px;
     width: 100px;
     height: 50px;
     border: 1px solid whitesmoke;
     font-weight: bold;
+    font-size: 20px;
 }
 
 img.header {
@@ -114,13 +115,12 @@ img.header {
 
 .info-section .container {
     background-color: aliceblue;
-    width: 100%;
 }
 
 .info-section-image {
     width: 220px;
-    border-radius: 20px;
-    border: 9px solid rgb(42, 117, 214);
+    border-radius: 15px;
+    border: 3px solid rgb(42, 117, 214);
 }
 
 .image-grid .second-image {
@@ -152,11 +152,47 @@ img.header {
 .image-grid p {
     background-color:rgb(24, 44, 70) ;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: whitesmoke;
-    margin-top: 10px;
-    font-weight: 350;
+    margin-top: 15px;
+    font-weight: 400;
+    box-shadow: 10px 10px rgb(42, 117, 214);
 }
 
 /* SECTION-1-END */
+
+/* QUOTE-SECTION-START */
+
+.quote-section .container {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .quote-container {
+    width: 60vw;
+}
+
+.quote-container .quote {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote span {
+    font-weight: 1000;
+    font-size: 43px;
+}
+
+.quote-container .author {
+    font-size: 30px;
+    font-weight: bold;
+    justify-self: flex-end;
+    color: #1f2937;
+}
+
+
 
