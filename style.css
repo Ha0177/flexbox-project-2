@@ -14,11 +14,20 @@ body {
     justify-self: center;
 }
 
-@media(max-width: 760px) {
+@media(max-width: 1080px) {
     * {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
+    }
+    .navbar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cta-section .container {
+        flex-direction: row;      
+        flex-wrap: wrap;  
     }
 }
 
