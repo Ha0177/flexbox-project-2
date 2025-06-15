@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,6 +12,14 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     justify-self: center;
+}
+
+@media(max-width: 760px) {
+    * {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
 }
 
 ul {
@@ -44,10 +54,12 @@ a {
 .navbar .logo {
     font-size: 35px;
     font-weight: 900;
-    border: 1px solid;
+    border: 10px solid;
     border-radius: 80px;
     padding: 15px;
-    font-family: serif;
+    font-family: 'Barriecito', sans-serif;
+    background-color: white;
+    color: rgb(24, 44, 70);
 }
 
 .navbar ul {
@@ -61,7 +73,7 @@ a {
     color: rgb(255, 255, 255);
     padding: 8px 20px;
     border-radius: 5px;
-    border: 1px solid whitesmoke;
+    border: 2px solid whitesmoke;
 }
 
 /* NAVBAR-END */
@@ -74,7 +86,6 @@ a {
     border-radius: 7px;
     width: 100px;
     height: 50px;
-    border: 1px solid whitesmoke;
     font-weight: bold;
     font-size: 20px;
 }
@@ -90,7 +101,7 @@ img.header {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    gap: 60px;
+    gap: 80px;
     width: 60vw;
     justify-self: center;
     margin-bottom: 50px;
@@ -105,8 +116,8 @@ img.header {
 .header .container p {
     color: rgb(245, 245, 245);
     font-size: large;
-    font-weight: 250;
-    margin-bottom: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
 
 /* HEADER-END */
@@ -163,12 +174,19 @@ img.header {
 
 /* QUOTE-SECTION-START */
 
+.quote-section {
+    padding: 30px 0px 30px 0px;
+    background-color: #e5e7ebee;
+}
+
 .quote-section .container {
-    background-color: #e5e7eb;
+    background-color: #e5e7ebee;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 10px dashed rgb(24, 44, 70);
+    border-top: 10px dashed rgb(24, 44, 70);
 }
 
 .container .quote-container {
@@ -201,7 +219,7 @@ img.header {
 .cta-section {
     background-color: rgb(42, 117, 214);
     width: 100vw;
-    padding: 100px 0px 100px 0px;
+    padding: 130px 0px 130px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,6 +256,36 @@ img.header {
 .cta-section .signup-button {
     background-color: black; 
 }
+
+/* CTA-SECTION-END */
+
+/* FOOTER-START */
+
+.footer {
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container p,
+a {
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer .container span {
+    word-spacing: 20px;
+}
+
+.footer .container a:hover {
+    color: rgba(255, 255, 255, 0.452);
+
+}
+
+/* FOOTER-END */
+
 
 
 
