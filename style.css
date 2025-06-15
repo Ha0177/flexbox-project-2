@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    flex: 1 1 auto;
 
 }
 body {
     background-color: rgb(24, 44, 70);
     font-family: 'Roboto' sans-serif;
-    width: 1100px;
+    width: 100vw;
     justify-self: center;
 }
 
@@ -34,6 +35,9 @@ a {
     justify-content: space-between;
     align-items: center;
     border-bottom: 4px solid;
+    width: 60vw;
+    justify-self: center;
+    border: 1px solid;
 }
 
 .navbar .logo {
@@ -43,7 +47,6 @@ a {
 
 .navbar ul {
     display: flex;
-    gap: 35px;
     font-size: 20px;
 }
 
@@ -52,10 +55,9 @@ a {
     color: rgb(255, 255, 255);
     padding: 8px 20px;
     border-radius: 5px;
-    border: 1px solid whitesmoke;
 }
 
-a.signup-button {
+    a.signup-button {
     background-color: rgb(42, 117, 214);
     padding: 10px 40px;
     border-radius: 7px;
@@ -76,7 +78,9 @@ img.header {
     align-items: center;
     margin-top: 50px;
     gap: 60px;
-
+    width: 60vw;
+    justify-self: center;
+    margin-bottom: 50px;
 }
 .header .container h1 {
     color: white;
@@ -90,5 +94,16 @@ img.header {
     font-size: large;
     font-weight: 100;
     margin-bottom: 40px;
+}
+
+.info-section .container {
+    border: 1px solid;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.info-section-image {
+    width: 250px;
+    height: 250px;
 }
 
