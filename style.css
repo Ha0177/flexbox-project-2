@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    flex: 1 1 auto;
-
 }
 body {
     background-color: rgb(24, 44, 70);
@@ -37,7 +35,6 @@ a {
     border-bottom: 4px solid;
     width: 60vw;
     justify-self: center;
-    border: 1px solid;
 }
 
 .navbar .logo {
@@ -48,6 +45,7 @@ a {
 .navbar ul {
     display: flex;
     font-size: 20px;
+    gap: 20px;
 }
 
 .navbar ul a {
@@ -55,6 +53,7 @@ a {
     color: rgb(255, 255, 255);
     padding: 8px 20px;
     border-radius: 5px;
+    border: 1px solid whitesmoke;
 }
 
     a.signup-button {
