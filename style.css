@@ -14,11 +14,12 @@ body {
     justify-self: center;
 }
 
-@media(max-width: 1080px) {
+@media(max-width: 1280px) {
     * {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
+        flex-wrap: wrap;
     }
     .navbar ul {
         flex-direction: row;
@@ -26,8 +27,19 @@ body {
         justify-content: center;
     }
     .cta-section .container {
-        flex-direction: row;      
-        flex-wrap: wrap;  
+        flex: 1 1 auto;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    header.header div.container {
+        flex-wrap: nowrap;
+    }
+    div img.header {
+        width: 400px;
+        padding-top: 0;
+    }
+    img.info-section-image {
+        padding-top: 0;
     }
 }
 
@@ -220,6 +232,14 @@ img.header {
     justify-self: flex-end;
     color: #1f2937;
 }
+
+@media(max-width: 1280px) {
+    div.quote-container p.quote,
+    .quote span {
+        font-size: 25px;
+    }
+}
+
 
 /* QUOTE-SECTION-END */
 
