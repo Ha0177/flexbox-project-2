@@ -21,11 +21,7 @@ body {
         text-align: center;
         flex-wrap: wrap;
     }
-    .navbar ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        
     .cta-section .container {
         flex: 1 1 auto;
         flex-wrap: wrap;
@@ -40,6 +36,9 @@ body {
     }
     img.info-section-image {
         padding-top: 0;
+    }
+    section.cta-section div.container {
+        flex-direction: column;
     }
 }
 
