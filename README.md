@@ -1,4 +1,3 @@
-The odin project flexbox project
 Images source: 
 
 [1](https://unsplash.com/photos/above-cloud-photo-of-blue-skies-yQorCngxzwI)
